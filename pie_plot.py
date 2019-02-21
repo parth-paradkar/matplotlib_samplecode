@@ -5,7 +5,7 @@ activities = ['Sleeping ', 'Studying', 'Coding', 'Chill']
 
 # round() is an float method that rounds to the required number of places
 percentages = [round((float(element) * 100 / 24), 2) for element in time_spent]
-act_final = [activities[i] + ' ' + str(percentages[i]) + '%' for i in range(len(time_spent))]
+act_final = [activities[i] + ': ' + str(percentages[i]) + '%' for i in range(len(time_spent))]
 
 # startangle specifies the starting angle of the pie chart(0 by default)
 # shadow adds shadow to the plot(duh)
