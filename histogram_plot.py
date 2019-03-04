@@ -7,4 +7,6 @@ bins = [0, 10, 20, 30, 40, 50, 50, 60, 70, 80, 90, 100, 110]
 
 # rwidth stores the width of the bars
 plt.hist(ages, bins, histtype='bar', rwidth=0.8, color='c')
+plt.xlabel('Ages')
+plt.ylabel('No. of People')
 plt.show()
